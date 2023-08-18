@@ -1,0 +1,21 @@
+body {
+
+    background-color: bisque;
+}
+h1 {
+    font-size: xx-large;
+    color: rgb(238, 136, 3);
+
+}
+
+
+p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+button {
+    font-size: x-large;
+    color: black;
+    background-color: cadetblue;
+}
