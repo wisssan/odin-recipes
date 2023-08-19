@@ -1,11 +1,13 @@
 /* Styling for the body of the Odin Recipes website */
 body {
     background-color: bisque;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin: 0; /* Reset default margin to avoid unexpected spacing */
+    padding: 0; /* Reset default padding */
 }
 
 /* Styling for the lasagna image */
-.lasanga-image {
+.lasagna-image {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,9 +15,7 @@ body {
 
 /* Styling for headings */
 h1, h2, h3 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
 }
 
 h1 {
@@ -33,7 +33,8 @@ h3 {
 
 /* Styling for list items */
 li {
-    font-size: large;
+    font-size: 1.2em;
+    margin-bottom: 10px;
 }
 
 /* Styling for paragraphs */
@@ -44,10 +45,11 @@ p {
 /* Styling for buttons */
 button {
     background-color: rgb(255, 84, 4);
-    font-size: x-large;
+    font-size: 1.5em;
     color: rgb(247, 247, 248);
-    border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    cursor: pointer;
     
+    border-radius: 10px;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    cursor: pointer;
+    padding: 10px 20px;
 }

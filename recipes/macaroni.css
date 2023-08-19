@@ -1,40 +1,43 @@
 /* Styling for the body of the Odin Recipes website */
 body {
     background-color: bisque;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
+/* Styling for the image */
 .image {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-/* Styling for the heading */
+/* Styling for the headings */
 h1, h2, h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Impact', 'Haettenschweiler', 'Arial Narrow Bold', sans-serif;
+    text-align: center;
 }
 
 h1 {
     font-size: 90px;
     color: rgb(238, 136, 3);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 40px;
 }
 
 h3 {
     font-size: 35px;
 }
 
+/* Styling for buttons */
 button {
     background-color: rgb(255, 84, 4);
-    font-size: x-large;
+    font-size: 24px;
     color: rgb(247, 247, 248);
     border-radius: 10px;
+    padding: 10px 20px;
     cursor: pointer;
 }

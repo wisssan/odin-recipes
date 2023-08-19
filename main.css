@@ -26,14 +26,14 @@ p {
     cursor: pointer;
 }
 
-button {
-    background-color: rgb(255, 84, 4);
-    font-size: xxx-large;
-    color: rgb(247, 247, 248);
-    border-radius: 10px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    cursor: pointer;
-}
+    button {
+        background-color: rgb(255, 84, 4);
+        font-size: 24px;
+        color: rgb(247, 247, 248);
+        border-radius: 10px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
 
 /* Styling for centering content */
 .center-content {
