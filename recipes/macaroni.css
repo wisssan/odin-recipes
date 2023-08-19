@@ -1,7 +1,7 @@
 /* Styling for the body of the Odin Recipes website */
 body {
     background-color: bisque;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Brush Script MT', cursive;
 
 }
 
@@ -14,7 +14,7 @@ body {
 
 /* Styling for the headings */
 h1, h2, h3 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Brush Script MT', cursive;
     text-align: center;
 }
 
@@ -24,11 +24,17 @@ h1 {
 }
 
 h2 {
-    font-size: 38px;
+    font-size:30px;
 }
 
 h3 {
     font-size: 35px;
+}
+
+/* Styling for list items */
+li {
+    font-size: 19;
+    margin-bottom: 10px;
 }
 
 /* Styling for buttons */
