@@ -1,0 +1,44 @@
+/* Styling for the body of the Odin Recipes website */
+body {
+    background-color: bisque;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 75px;
+    color: rgb(238, 136, 3);
+
+}
+
+/* Styling for the paragraphs */
+p {
+    font-size: xx-large;
+    font-weight: bolder;
+}
+
+/* Styling for the recipe list */
+.recipes {
+    font-size: 50px;
+    font-weight: bold;
+    
+    cursor: pointer;
+}
+
+button {
+    background-color: rgb(255, 84, 4);
+    font-size: xxx-large;
+    color: rgb(247, 247, 248);
+    border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Styling for centering content */
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
