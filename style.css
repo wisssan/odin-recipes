@@ -1,7 +1,7 @@
 /* Styling for the body of the Odin Recipes website */
 body {
     background-color: bisque;
-    font-family: 'Brush Script MT', cursive;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 }
 
@@ -31,6 +31,7 @@ button {
     font-size: xxx-large;
     color: rgb(247, 247, 248);
     border-radius: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Styling for centering content */
